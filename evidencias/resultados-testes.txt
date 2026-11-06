@@ -1,0 +1,28 @@
+Execução de revisão do laboratório
+Data UTC: 2026-11-06T12:24:15.640724+00:00
+Sistema: Linux
+Python: 3.12.14
+Comando (na raiz do projeto): python laboratorio/sql-injection/test_login.py
+Origem: execução automatizada na revisão do pacote, separada dos prints do Windows.
+
+test_01_corrigida_credenciais_corretas (__main__.LoginTerminalTests.test_01_corrigida_credenciais_corretas) ... ok
+test_01_vulneravel_credenciais_corretas (__main__.LoginTerminalTests.test_01_vulneravel_credenciais_corretas) ... ok
+test_02_corrigida_senha_incorreta (__main__.LoginTerminalTests.test_02_corrigida_senha_incorreta) ... ok
+test_02_vulneravel_senha_incorreta (__main__.LoginTerminalTests.test_02_vulneravel_senha_incorreta) ... ok
+test_03_corrigida_usuario_inexistente (__main__.LoginTerminalTests.test_03_corrigida_usuario_inexistente) ... ok
+test_03_vulneravel_usuario_inexistente (__main__.LoginTerminalTests.test_03_vulneravel_usuario_inexistente) ... ok
+test_04_corrigida_apostrofo_isolado (__main__.LoginTerminalTests.test_04_corrigida_apostrofo_isolado) ... ok
+test_04_vulneravel_apostrofo_isolado (__main__.LoginTerminalTests.test_04_vulneravel_apostrofo_isolado) ... ok
+test_05_corrigida_entrada_no_usuario (__main__.LoginTerminalTests.test_05_corrigida_entrada_no_usuario) ... ok
+test_05_vulneravel_entrada_no_usuario (__main__.LoginTerminalTests.test_05_vulneravel_entrada_no_usuario) ... ok
+test_06_corrigida_entrada_na_senha (__main__.LoginTerminalTests.test_06_corrigida_entrada_na_senha) ... ok
+test_06_vulneravel_entrada_na_senha (__main__.LoginTerminalTests.test_06_vulneravel_entrada_na_senha) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.210s
+
+OK
+
+SHA-256 app.py: bb054160387886b407db3fac653a5119de169b1f5a6aab1930b090ace3acb8cf
+SHA-256 app_vulneravel.py: 40dbb23590d175e6c642767674c26a9ccbaf09e9d38028c843fc80e8ddd7be5c
+SHA-256 test_login.py: 5cbcc6ab9bb91a679d4734c1a4498783fad12a711ef86f5df0fa288846648ced
